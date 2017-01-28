@@ -1,0 +1,36 @@
+RUBY/JAVA
+//decliare object/hash
+
+monster = {"name": "monster",
+"eyes": 1,
+"sound": "quack",
+"enjoys":["humans", "pizza"],
+"friendly": false}
+
+//calling parts of monster(RUBY)
+
+puts monster["name"]
+puts monster["sound"]
+
+//decliare object/hash(JAVA)
+HashMap <String,String> monster = new HashMap<String, String>();
+
+//adds item to object
+monster.put("name", "monster")
+
+//gets item in object
+monster.get("name")
+
+//calling parts of monster(JAVA/RUBY)
+
+monster.sound;
+output=> "quack"
+
+//decliare object/hash(SWIFT)
+
+var monster:[String:AnyObject] = [
+"name": "monster"
+"eyes": 1
+"enjoys": ["humans", "pizza"]
+"friendly":false
+]
