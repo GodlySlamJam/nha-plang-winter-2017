@@ -1,0 +1,35 @@
+RUBY
+
+case food
+when "taco"
+puts 1
+when "chicken"
+puts "chicken"
+when 3
+puts "Something"
+else
+puts 2
+end
+
+JAVA
+
+Switch (food){
+case "taco"
+  System.out.println(1);
+  break;
+case "chicken";
+  System.out.println("chicken")
+  break;
+}
+
+SWIFT
+
+let character:Character = "Z"
+switch Character{
+case "a":
+  print("The first letter")
+case "Z":
+  print("The last letter of the alphabet")
+default:
+  print("Other character")
+}
